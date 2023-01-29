@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Positioning</title>
+    <style>
+        .hii{
+            position: fixed;
+            right: 0%;
+            left: 0%;
+            top: 0%;
+            bottom: 0%;
+        }
+
+        .text{
+            position: absolute;
+            font-family: Georgia, Times, 'Times New Roman', serif ;
+            color: transparent;
+            font-size:105px;
+            margin-top: 19%;
+            margin-left: 33%;
+            -webkit-text-stroke-width: 4px;
+            -webkit-text-stroke-color: rgb(255, 255, 255);
+        }
+
+        .text:hover{
+            color:rgb(255, 255, 255);
+            transform: scale(1.1);
+        }
+
+        .link{
+            font-size: 30px;
+            position: absolute;
+            margin-top: 29%;
+            margin-left: 40%;
+            color:black;
+            border:3px solid white;
+            border-radius: 100px ;
+            padding: 10px;
+            text-decoration: none;
+            
+        
+       
+        }
+
+        .link:hover{
+            color: rgb(86, 218, 216);\
+        }
+    </style>
+</head>
+<body>
+    <video  class="hii" src="C:\Users\JEEL\Downloads\beach.mp4" autoplay loop muted width="100%"></video>
+    <p class="text">BEACH</p>
+    <a href="#" class="link" >Explore</a>
+</body>
+</html>
